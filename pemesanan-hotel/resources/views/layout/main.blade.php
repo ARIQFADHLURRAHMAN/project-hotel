@@ -88,13 +88,13 @@
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text"></i>
-              <p class="text">Importan</p>
+              <p class="text">Kamar</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text"></i>
-              <p>Warning</p>
+              <p>Fasilitas Kamar</p>
             </a>
           </li>
           <li class="nav-item">
@@ -116,10 +116,6 @@
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0">Dashboard</h1>
-
-          </div><!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
@@ -146,6 +142,11 @@
   
   <footer class="main-footer">
   </footer>
+
+  <div class="content-wrapper pt-3">
+    <!-- /.content -->
+    @yield('content')
+  </div>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
